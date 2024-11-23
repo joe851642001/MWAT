@@ -1,4 +1,4 @@
-load('b_d5.mat') % b_in = b(:,1) in steady state
+load('b.mat') % b_in = b(:,1) in steady state
 
 tic
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
