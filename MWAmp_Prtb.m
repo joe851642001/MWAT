@@ -1,4 +1,4 @@
-load('b_in_M5_GS100W_g3.2log9_FocusD5um.mat') % b_in = b(:,1) in steady state
+load('b_d5.mat') % b_in = b(:,1) in steady state
 
 tic
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
