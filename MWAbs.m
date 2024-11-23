@@ -20,7 +20,7 @@ nco = 1.5; % refractive index of core
 w = 20; % core radius [um]
 W = 200; % cladding radius [um] 
 L = 1e6; % fiber length = L [um]
- Pseed = 630; % seed power [W] 
+ Pseed = 750; % seed power [W] 
 % Pseed = sum(abs(b0).^2)*nco*(2*w)^2 ; % seed power [W]
 Psat = 100 ; % saturation power [W]
 G0 = -log(sqrt(exp(3.2*log(9))))/1e6 ; % Field gain [1/um] 
