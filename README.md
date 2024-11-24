@@ -12,12 +12,11 @@ These codes require MATLAB R2017b or later to run as is, but they can run on MAT
 Hardware Requirements:
 The codes require approximately 1–2 GB of RAM for typical parameters. However, this estimate scales with the number of modes (M), transverse resolution (Rcore), and simulation steps (J and P). A computer with 4 GB of RAM or more should handle it comfortably. For very fine resolutions or extended simulations, higher memory may be necessary.
 
-Demonstration:
-
+Demonstration: 
 This demonstration reproduces Fig. 2 in the paper using spacetime symmetry mapping. Follow the steps below to perform the simulation:
 1.	Include the required input file:
    Ensure the file b0B_d5.mat is in the same folder as the multimode waveguide absorber code, MWAbs.m. The variable ‘b0’ in the file represents the mode content of the phase conjugation of a target optical field at the distal end of a multimode waveguide amplifier.
-32.	Run the multimode waveguide absorber simulation (MWAbs.m):
+2.	Run the multimode waveguide absorber simulation (MWAbs.m):
    Execute MWAbs.m to calculate light absorption from the distal end of the multimode waveguide absorber to the proximal end.
    Allow the simulation to run until it converges (several hundred milliseconds in the simulation's time frame).
 3.	Validate steady-state field and temperature profiles:
